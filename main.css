@@ -248,41 +248,8 @@ img {
     max-width: 95%;
 }
 
-@media screen and (max-device-width: 700px){
-    
-/*#navBarList {
-    text-align: center;
-    position: absolute;
-    display: block;
-    z-index: 1;
-    width: 100%;
-    margin-top: 0px;
-    height: 50px;
-    padding-left: 0px;
-    padding-top: 0px;
-    top: 0px;
-    margin-bottom: 40px;
-    position: fixed;
-    background-color: rgba(10,10,10,0.2);
-    
-}
-#logoNav{
-    padding-top: 0px;
-    margin-top: 15px;
-    margin-right: 0px;
-    padding-right: 0px;
-    margin-left: 15px;
-    float:inherit;
-    line-height: 20px;
-} 
-#navListElement1 {
-    display:block;
-    float:right;
-}
-#navListElement2 {
-    display:block;
-    float: right;
-}*/
+/*@media screen and (max-device-width: 700px){
+
 #vid {
     display: none;
     position: absolute;
@@ -327,7 +294,7 @@ img {
 .jumbotron{
     text-align: center;
     font-size: 16px;
-    /*background-image: -webkit-linear-gradient(270deg,rgb(30,30,30) 0%,rgb(117,119,238) 100%);*/
+
     background-image: -webkit-linear-gradient(270deg,rgb(0,0,0) 0%,rgb(83,13,83) 100%);
     padding-bottom: 80px;
     padding-left: 10px;
@@ -380,11 +347,7 @@ h4 {
     padding-top: 50px;
 }
 #slogan {
-    /*position: absolute;
-    font-size: 12px;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)*/
+
     display:inline-block;
     font-size: 12px;
 
@@ -394,7 +357,7 @@ h4 {
     padding-top: 10px;
     bottom:0;
     width:100%;
-    height:150px;   /* Height of the footer */
+    height:150px; 
     background:white;
     color: black;
     text-align: center;
@@ -439,20 +402,9 @@ h4 {
     
     margin-top: 100px;
 }
-/*#anaColor{
-    color="white";
-    size="0.5px";
-}
-#aboutButtonColor{
-    color="white";
-    size="0.5px";
-}
-#contactButtonColor{
-    color="white";
-    size="0.5px";
-}*/
+
     
-}
+}*/
 
 #top .avia-content-slider, #top .avia-content-slider-inner, #top .avia-content-slider-inner .slide-entry-wrap { -webkit-perspective: none !important; }
 
