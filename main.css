@@ -329,12 +329,12 @@ img {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 100px;
-    height: 100%;
+    height: auto;
 }
 #facebookLogo, #mailLogo, #linkedInLogo{
     width: 70px;
     height: 70px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 #appsList{
     width: 100%;
