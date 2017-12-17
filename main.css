@@ -293,6 +293,10 @@ img {
     height: 80%;
 }
     
+    #copyright{
+        margin-top: 10px; 
+    }
+    
 #contactButtonText{
     padding-right: 0px;
     margin-right: 20px;
