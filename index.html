@@ -210,6 +210,22 @@
             }
             
         </script>
+        <script>
+        function onHoverCross()
+        {
+            if(window.screen.availWidth > 700){
+            $("#closeButtonCross").attr('src', 'closeButtonDark.png');
+            }
+    //$("#anaText").fontcolor("dimgrey");
+        }
+
+        function offHoverCross()
+        {
+            $("#closeButtonCross").attr('src', 'closeButton.png');
+            
+    //$("#anaText").fontcolor("black");
+        }
+    </script>
     </head>
     <body>
         <header>
