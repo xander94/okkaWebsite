@@ -146,6 +146,22 @@
         }
     </script>
         <script>
+        function learnMoreHoverOn()
+        {
+            if(window.screen.availWidth > 700){
+            $("#learnMoreButton").attr('src', 'okkaLearnMoreHover.png');
+            }
+    //$("#anaText").fontcolor("dimgrey");
+        }
+
+        function learnMoreHoverOff()
+        {
+            $("#learnMoreButton").attr('src', 'okkaLearnMore.png');
+            
+    //$("#anaText").fontcolor("black");
+        }
+    </script>
+        <script>
         function contactOnHover32()
         {
             if(window.screen.availWidth > 700){
@@ -204,6 +220,21 @@
         }
     </script>
         <script>
+        function howVidPopUp(){
+            document.getElementById('howVideo').style.display='block';
+            document.getElementById('vid').style.display='block';
+            document.getElementById('dimScreen2').style.display='block';
+        }
+    </script>
+        <script>
+            function howVidClose(){
+               document.getElementById('howVideo').style.display='none';
+                document.getElementById('vid').style.display='none';
+                document.getElementById('dimScreen2').style.display='none'; 
+            }
+            
+        </script>
+        <script>
             function mailClose(){
                document.getElementById('contact_form').style.display='none';
                 document.getElementById('dimScreen').style.display='none'; 
@@ -225,6 +256,19 @@
             
     //$("#anaText").fontcolor("black");
         }
+    </script>
+<script>
+function stopVid() {
+  var myPlayer = document.getElementById("vid"); 
+  myPlayer.setAttribute("src", " ");
+};
+    </script>
+<script>
+
+function startVid() {
+  var myPlayer = document.getElementById("vid"); 
+  myPlayer.setAttribute("src", "https://www.youtube.com/embed/h_c1gruIQ6M");
+};
     </script>
     </head>
     <body>
@@ -257,7 +301,10 @@
             <div class="container">
                 <img id="mainLogo" src="OkkaLogoClear.png" alt="Logo" style="width:490px;"></img>
             <h2><font size="5px">Breathe only air.</font></h2>
+            <a href="#">
+            <img id="learnMoreButton" src="okkaLearnMore.png" alt="Learn more" onmouseover="learnMoreHoverOn();" onmouseout="learnMoreHoverOff();" onclick="howVidPopUp();startVid();" style="width:129px;height:46px;"></img></a>
             <h3>Coming soon</h3>
+            
             <!--<img src="/Users/alexanderhewitt/Google_Drive/anaphitelogowhite.png" width="100" height="80" alt="Logo">-->
                 <p>
             </p>
@@ -326,6 +373,16 @@
             <a href="#" onclick="mailClose();contactOffHover1();" id="Close Button"><input type="button" value="Close"></input></a>
                 </div>-->
             </div>
+</button>
+</div>
+<div id="howVideo"> 
+    <button id="dimScreen2" onclick="howVidClose();okkaLearnMoreHoverOff();stopVid();">
+        <a href="#" onclick="howVidClose();okkaLearnMoreHoverOff();stopVid();"><img id="closeButtonCross" src="closeButton.png" alt="Close" onmouseover="onHoverCross();" onmouseout="offHoverCross();"></img></a>
+    
+    <div id="vidContainer">
+        <h3 id="proprietary"><font size="4px">Our proprietary Anaphite technology helps us remove pollution faster and more efficiently than ever.</font></h3>
+        <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/h_c1gruIQ6M" frameborder="0" allowfullscreen></iframe>
+        </div>
 </button>
 </div>
     </body>

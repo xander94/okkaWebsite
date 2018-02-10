@@ -8,6 +8,13 @@ html {
     -webkit-font-smoothing: antialiased;
     background: white;
 }
+h1, h2, h3, h4{
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+}
 h1{
     margin-top: 0px;
 }
@@ -22,6 +29,7 @@ body {
     /*box-shadow: 0 0 0px rgba(0, 0, 0, 0.00);*/
     height: 100%;
 }
+
 /*nav {
     text-align: left;
     align-content: flex-start;
@@ -72,6 +80,40 @@ body {
 #copyright{
     font-size: 15px;
     text-decoration: none;
+}
+#proprietary{
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 70px;
+    font-family: 'Raleway', sans-serif;
+    /*margin-bottom: 40px;*/
+    color: white;
+}
+#howVideo{
+    position:fixed;
+    display:none; /* you should change left and top */
+    width:100%;
+    height:100%;
+    z-index: 2;
+}
+#learnMoreButton {
+    margin-top: 40px;
+}
+#vidContainer {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+#vid {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 60%;
+    z-index: 5;
 }
 /*
 .image_off, #home:hover .image_on{
@@ -131,6 +173,7 @@ body {
     top: 0px;
     position: absolute;
     text-decoration: none;
+    z-index:  = 6;
     
 }
 /*#anaText:hover{
@@ -171,6 +214,11 @@ body {
     padding-right: 10px;
     padding-top: 100px;
     height: 100%;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
 }
 
 .jumbotron h1{
@@ -212,19 +260,25 @@ h2 {
 
 }
 
-#dimScreen
+#dimScreen, #dimScreen2
 {
     position:fixed;
     padding:0;
     margin:0;
     display: none;
 
+    
     top:0;
     left:0;
 
     width: 100%;
     height: 100%;
     background:rgba(20,20,20,0.9);
+    -webkit-animation: fadein 0.3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 0.3s; /* Firefox < 16 */
+        -ms-animation: fadein 0.3s; /* Internet Explorer */
+         -o-animation: fadein 0.3s; /* Opera < 12.1 */
+            animation: fadein 0.3s;
 }
 
 
