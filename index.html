@@ -258,9 +258,10 @@
         }
     </script>
 <script>
+
 function stopVid() {
-  var myPlayer = document.getElementById("vid"); 
-  myPlayer.setAttribute("src", " ");
+    var myPlayer = document.getElementById("vid"); 
+    myPlayer.setAttribute("src", " ");
 };
     </script>
 <script>
@@ -269,7 +270,7 @@ function startVid() {
   var myPlayer = document.getElementById("vid"); 
   myPlayer.setAttribute("src", "https://www.youtube.com/embed/h_c1gruIQ6M");
 };
-    </script>
+</script>
     </head>
     <body>
         <header>
@@ -376,14 +377,14 @@ function startVid() {
 </button>
 </div>
 <div id="howVideo"> 
-    <button id="dimScreen2" onclick="howVidClose();okkaLearnMoreHoverOff();stopVid();">
-        <a href="#" onclick="howVidClose();okkaLearnMoreHoverOff();stopVid();"><img id="closeButtonCross" src="closeButton.png" alt="Close" onmouseover="onHoverCross();" onmouseout="offHoverCross();"></img></a>
-    
+    <button id="dimScreen2" onclick="howVidClose();learnMoreHoverOff();stopVid();">
+        <a href="#" onclick="howVidClose();learnMoreHoverOff();stopVid();"><img id="closeButtonCross" src="closeButton.png" alt="Close" onmouseover="onHoverCross();" onmouseout="offHoverCross();"></img></a>
+    <h3 id="proprietary"><font>Our proprietary Anaphite technology helps us remove pollution faster and more efficiently than ever.</font></h3>
     <div id="vidContainer">
-        <h3 id="proprietary"><font size="4px">Our proprietary Anaphite technology helps us remove pollution faster and more efficiently than ever.</font></h3>
         <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/h_c1gruIQ6M" frameborder="0" allowfullscreen></iframe>
         </div>
 </button>
 </div>
+
     </body>
 </html>

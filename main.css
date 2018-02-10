@@ -104,16 +104,24 @@ body {
     width: 100%;
     height: 0;
     padding-bottom: 56.25%;
+
 }
 #vid {
     display: none;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 60%;
     height: 60%;
     z-index: 5;
+}
+#proprietary{
+    
+    padding-bottom: 0px;
+    font-size: 25px;
+    line-height: normal;
+    
 }
 /*
 .image_off, #home:hover .image_on{
@@ -266,7 +274,6 @@ h2 {
     padding:0;
     margin:0;
     display: none;
-
     
     top:0;
     left:0;
