@@ -119,8 +119,11 @@ body {
 #proprietary{
     
     padding-bottom: 0px;
+    padding-top: 10%;
     font-size: 25px;
     line-height: normal;
+    padding-left: 10%;
+    padding-right: 10%;
     
 }
 /*
